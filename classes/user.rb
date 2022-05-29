@@ -56,12 +56,6 @@ end
 
 object = User.new("Body","boduy@gmail.com", "01004065701")
 
-# object.valid_name?("abdelrahman")
-# object.valid_email?("abdo@gmail.com")
-# object.valid_mobile?("01094073251")
-# object.create 
-# User.list
-
 while true
     puts('Press 1 to create user and 2 to USE ALL list methods and 0 to exit')
     case_number = gets.to_i
